@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year Master's Student at Boston University and a member of the [MiDAS Lab](midas.bu.edu), working with [Dr. Manos Athanassoulis](https://cs-people.bu.edu/mathan/). My research interests include Data Systems - indexing and data storage management, Databases and Big Data. I completed my Bachelor's degree from Purdue University Fort Wayne, where I was advised by [Dr.Zesheng Chen](http://users.pfw.edu/chenz/). Beyond focusing on studies and research, I enjoying playing the Keyboard (trained in classical Indian carnatic music), watching soccer/football and cricket. 
+I am a first year Master's Student at Boston University and a member of the [MiDAS Lab](midas.bu.edu), working with [Dr. Manos Athanassoulis](https://cs-people.bu.edu/mathan/). My research interests include Data Systems - indexing and data storage management, Databases and Big Data. I completed my Bachelor's degree from Purdue University Fort Wayne, where I was advised by [Dr.Zesheng Chen](http://users.pfw.edu/chenz/). Beyond focusing on studies and research, I enjoy playing Keyboard/Piano (trained in classical Indian carnatic music), watching soccer/football and cricket. 
 
 Recent News
 ======
