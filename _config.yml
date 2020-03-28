@@ -11,7 +11,7 @@ title                    : "Aneesh Raman"
 title_separator          : "-"
 name                     : &name "Aneesh Raman"
 description              : &description "Graduate Student at Boston University"
-
+theme                    : jekyll-theme-slate
 url                      : https://ramananeesh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ramananeesh/ramananeesh.github.io"
