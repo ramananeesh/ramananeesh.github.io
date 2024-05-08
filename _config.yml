@@ -1,0 +1,37 @@
+title: Aneesh Raman
+first_name: Aneesh
+last_name: Raman
+email: aneeshr@bu.edu
+# url: "https://ramananeesh.github.io/"
+url: "https://cs-people.bu.edu/aneeshr/"
+baseurl: ""
+remote_theme: ankitsultana/researcher@gem
+markdown: kramdown
+# ins_logo: "images/favicon.png"
+
+tracking_id: #
+
+footer: yes
+footer_text: "&copy; Copyright 2023 Aneesh Raman. Last Updated: April 11 2023. Design: Ankit Sultana"
+
+repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+nav:
+  - name: "About"
+    link: "/index"
+  - name: "Projects"
+    link: "/projects"
+  #  - name: "Publications"
+  #    link: "/publications"
+  - name: "Resume"
+    link: "resume.pdf"
+
+github_username: ramananeesh
+twitter_username: aneesh_raman
+linkedin_username: aneesh-raman
+scholar_userid: lK0Tvs4AAAAJ

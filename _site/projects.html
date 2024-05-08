@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Projects</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, accent, , Aneesh Raman, jekyll">
+    <meta name="author" content="">
+    
+    
+    
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="alternate" type="application/rss+xml" title="Aneesh Raman RSS" href="/feed.xml" />
+    <link rel="stylesheet" href="/css/main.css">
+    
+    
+    <link rel="author" href="https://twitter.com/aneesh_raman">
+    
+    <!-- Facebook Open Graph -->
+    <meta name="og:description" content="">
+    <meta name="og:title" content="Aneesh Raman">
+    <meta name="og:url" content="http://localhost:4000/projects">
+    <meta name="og:type" content="article">
+    
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Aneesh Raman">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:url" content="http://localhost:4000/projects">
+    
+    <meta name="twitter:image" content="">
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="navbar container">
+            
+            <a id="author-name" class="alignable pull-left" href="http://localhost:4000">Aneesh Raman</a>
+            <ul id="navlist" class="alignable pull-right navbar-ul">
+                
+                
+                <li class="alignable pull-left nav-list"><a href="/index">About</a>
+                    
+                    
+                    /
+                    
+                </li>
+                
+                
+                <li class="alignable pull-left nav-list"><a href="/projects">Projects</a>
+                    
+                    
+                    /
+                    
+                </li>
+                
+                
+                <li class="alignable pull-left nav-list"><a target="_blank" href="resume.pdf">Resume</a>
+                    
+                    
+                </li>
+                
+            </ul>
+        </div>
+        <div style="clear:both"></div>
+        <hr>
+        
+            <div class="container content">
+                
+                <h1 id="current-projects">Current Projects</h1>
+
+<h2 id="sortedness-aware-indexing">Sortedness-Aware Indexing</h2>
+<p><img src="images/read-write-tradeoff.jpg" alt="" style="width:48%" />
+<img src="images/mixed.jpg" alt="" style="width:50%" /></p>
+
+<p>Indexing in data systems can be perceived as the process of adding structure to the incoming, otherwise unsorted data. If the data
+ingestion order matches the indexed attribute order, the indexing effort is redundant and can be avoided altogether.
+We identify sortedness as a resource that can accelerate index ingestion, and propose a new design paradigm that pays less indexing
+cost for near-sorted data.</p>
+
+<p><a href="https://cs-people.bu.edu/mathan/publications/icde23-raman.pdf">Local PDF</a> |
+<a href="https://github.com/BU-DiSC/sware">Source Code</a></p>
+
+<hr />
+<h2 id="bods-a-benchmark-on-data-sortedness">BoDS: A Benchmark on Data Sortedness</h2>
+
+<p><img src="images/bods_architecture.jpeg" alt="" style="width:48%" />
+<img src="images/bods-vision.jpg" alt="" style="width:48%" /></p>
+
+<p>Data systems and underlying indexes offer favorable ingestion (and
+query) performance for only the two extremes of data sortedness - unsorted
+data or fully sorted data. In practice, data may arrive with intermediate
+sortedness and the intuition is that index construction should be cheaper. 
+However, there is a need for a framework to
+explore how index designs may be able to exploit pre-existing sortedness
+during data ingestion.
+BoDS highlights the performance of data systems in terms of index
+construction and navigation costs when operating on data ingested with variable sortedness.</p>
+
+<p><a href="https://cs-people.bu.edu/mathan/publications/tpctc22-raman.pdf">Local PDF</a> |
+<a href="https://github.com/BU-DiSC/bods">Source Code</a> | 
+<a href="https://www.youtube.com/watch?v=sb6jw0zz-CU">Presentation Video</a></p>
+
+<hr />
+
+
+            </div>
+        </div>
+        
+</body>
+<footer>
+            <div class="social">
+              <div class="contact-icons">
+                <a href="mailto:aneeshr@bu.edu" title="email"><i class="fas fa-envelope"></i></a>
+<a href="https://scholar.google.com/citations?user=lK0Tvs4AAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+<a href="https://github.com/ramananeesh" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/aneesh-raman" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+<a href="https://twitter.com/aneesh_raman" title="Twitter"><i class="fab fa-twitter"></i></a>
+
+              </div>
+
+              <div class="contact-note">
+                
+              </div>
+
+            </div>
+    
+    <hr />
+    <p style="text-align: center; margin-bottom: 10px">
+        <a href="" style="color: black"><small>&copy; Copyright 2023 Aneesh Raman. Last Updated: April 11 2023. Design: Ankit Sultana</small></a>
+    </p>
+    
+</footer>

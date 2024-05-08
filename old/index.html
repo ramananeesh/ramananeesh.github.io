@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Aneesh's Webpage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Aneesh Raman</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<!-- <li>
+								<a href="#">Layouts</a>
+								<ul>
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li> -->
+							<li><a href="elements.html">CV</a></li>
+							<!-- <li><a href="#" class="button primary">Sign Up</a></li> -->
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Hi! I am Aneesh,</h2>
+							<p>a PhD Researcher @ Boston University</p>
+						</header>
+						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+					</div>
+					<a href="#about" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="about" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/IMG_7073.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-4 col-12-medium">
+									<header>
+										<h2>About Myself</h2>
+										<p>I am a member of the <a href="https://disc.bu.edu">DiSC
+											Lab</a>,
+										working with <a href="https://cs-people.bu.edu/mathan/">Prof. Manos Athanassoulis</a>.
+										</p>
+									</header>
+								</div>
+								<div class="col-4 col-12-medium">
+									<p>My research focus is on
+										Database systems - indexing and access methods. My other research interests 
+										include query processing, high performance computing, data mining and machine learning.
+								</p>
+								</div>
+								<div class="col-4 col-12-medium">
+									<p>I have primarily been working on building sortedness-aware indexes for data systems. 
+										Prior to Boston University,
+										I was at Purdue University Fort Wayne, where I worked with <a href="https://users.pfw.edu/chenz/">Prof. Zesheng Chen</a> on my senior
+										capstone project.</p>		
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#recent" class="goto-next scrolly">Next</a>
+				</section>
+			
+				<!-- One -->
+				<section id="recent" class="spotlight style3 bottom">
+					<span class="image fit main"><img src="images/IMG_8847-4.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-2 col-12-medium">
+									<header>
+										<h2>Recent News</h2>
+										<!-- <p>I am a member of the <a href="https://disc.bu.edu">DiSC
+											Lab</a>,
+										working with <a href="https://cs-people.bu.edu/mathan/">Prof. Manos Athanassoulis</a>.
+										</p> -->
+									</header>
+								</div>
+								<div class="col-5 col-12-medium">
+									<ul class="alt">
+										<li><b>April 2023</b> - Presented work on "Indexing for Near-Sorted Data" @ ICDE 2023 in Anaheim, California</li>
+										<li><b>March 2023</b> - Presented poster about Sortedness-Aware Indexing @ NEDB Day 2023 in Boston, Massachusetts</li>
+									</ul>
+								</div>
+								<div class="col-5 col-12-medium">
+									<ul class="alt">
+										<li><b>Sep 2022</b> - Presented work on "Benchmark on Data Sortedness" @ TPCTC 2022, part of VLDB 2022 conference in Sydney</li>
+										<li><b>Jun 2022</b> - Recognized with the Outstanding Teaching Fellow award by Graduate School of Arts & Sciences, BU</li>
+									</ul>
+								</div>
+								<h3>See my projects below!</h3>
+							</div>
+						</div>
+					</div>
+					<a href="#sware" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="sware" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/read-write-tradeoff-2-01.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>SWARE</h2>
+							<p>Indexing for Near-Sorted Data</p>
+						</header>
+						<p>Indexing in data systems can be perceived as the process of
+							adding structure to the incoming, otherwise unsorted data. If the data
+							ingestion order matches the indexed attribute order, the indexing effort
+							is redundant and can be avoided altogether.
+							We identify sortedness as a resource that can accelerate index
+							ingestion, and propose a new sortedness-aware (SWARE) design paradigm that pays less indexing
+							cost for
+							near-sorted data. When applied to a classical index like the B<sup>+</sup>-tree SWARE
+							offers a 9<span>&#215;</span> speedup for write intensive workloads and a
+							4<span>&#215;</span> benefit in mixed workloads by exploiting data sortedness.</p>
+						<ul class="actions">
+							<li><a target="_blank" href="https://disc.bu.edu/papers/icde23-raman" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>BoDS</h2>
+							<p>
+								A Benchmark on Data Sortedness
+							</p>
+						</header>
+						<p>
+							Data systems and underlying indexes offer favorable ingestion (and
+							query) performance for only the two extremes of data sortedness - unsorted
+							data or fully sorted data. In practice, data may arrive with intermediate
+							sortedness and the intuition is that index construction should be cheaper. 
+							However, there is a need for a framework to
+							explore how index designs may be able to exploit pre-existing sortedness
+							during data ingestion.
+							BoDS highlights the performance of data systems in terms of index
+							construction and navigation costs when operating on data ingested
+							with variable sortedness. 
+						</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+				<!-- <section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Accumsan sed tempus adipiscing blandit</h2>
+							<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+						</header>
+						<div class="box alt">
+							<div class="row gtr-uniform">
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-chart-area"></span>
+									<h3>Ipsum sed commodo</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-comment"></span>
+									<h3>Eleifend lorem ornare</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-flask"></span>
+									<h3>Cubilia cep lobortis</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-paper-plane"></span>
+									<h3>Non semper interdum</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-file"></span>
+									<h3>Odio laoreet accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-lock"></span>
+									<h3>Massa arcu accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+							</div>
+						</div> -->
+						<footer class="major">
+							<ul class="actions special">
+								<li><a href="#" class="button">Magna sed feugiat</a></li>
+							</ul>
+						</footer>
+					</div>
+				</section>
+
+			<!-- Five -->
+				<section id="five" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2>Magna faucibus lorem diam</h2>
+							<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+						</header>
+						<form method="post" action="#" class="cta">
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
+								<div class="col-4 col-12-xsmall"><input type="submit" value="Get Started" class="fit primary" /></div>
+							</div>
+						</form>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
