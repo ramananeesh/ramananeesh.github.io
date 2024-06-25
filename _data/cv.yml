@@ -1,0 +1,90 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Aneesh Raman
+      value: Aneesh Raman
+    - name: Email
+      value: <a href="mailto:aneeshr@bu.edu">aneeshr@bu.edu</a>
+    # - name: Date of Birth
+    #   value: 17th October 1997
+    # - name: Languages
+    #   value: English, German
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Computer Science
+      institution: Boston University, Boston, MA, US
+      year: Current
+      description:
+        - Advised by <a href = "https://cs-people.bu.edu/mathan/">Prof. Manos Athanassoulis</a>
+        # -
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: MS in Computer Science
+      institution: Boston University, Boston, MA, US
+      year: 2019-2021
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: <a href = "https://www.microsoft.com/en-us/research/group/datasystems/">Data Systems Group</a>, Microsoft Research
+      year: May 2024
+      description:
+        - Mentors - <a href = "https://www.microsoft.com/en-us/research/people/badrishc/">Badrish Chandramouli</a> and <a href="https://www.microsoft.com/en-us/research/people/vazois/">Vasileios Zois</a>
+        - Working on <a href = "https://www.microsoft.com/en-us/research/blog/introducing-garnet-an-open-source-next-generation-faster-cache-store-for-accelerating-applications-and-services/">Garnet</a>
+    - title: Student Researcher
+      institution: <a href = "https://techsysinfra.google/research/">SystemsResearch</a>@Google
+      year: September 2023
+      # description:
+      #   - Mentors - Fatma Ozcan and Yannis Chronis
+
+    - title: Research Intern
+      institution: <a href = "https://techsysinfra.google/research/">SystemsResearch</a>@Google
+      year: May 2023
+      description:
+        - Mentors - <a href = "https://techsysinfra.google/research/srg-staff/fatma-ozcan/">Fatma Özcan</a> and <a href = "https://techsysinfra.google/research/srg-staff/yannis-chronis/">Yannis Chronis</a>
+        - Worked on Adaptive Query Processing Techniques for HTAP systems.
+
+    - title: Teaching Assistant / Teaching Fellow / Research Fellow
+      institution: Boston University
+      year: Jan 2020 - Present
+      description:
+
+- title: Scholarships, Awards and Grants
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - NSF Travel Grant for VLDB Travel Support
+        - Outstanding Teaching Fellow (Spring 2022) - Boston University (GRS)
+
+    - year: 2019
+      items:
+        - Departmental Partial Tution Scholarship - Boston University
+
+    - year: 2016-2019
+      items:
+        - Dr. Sushil K Usman Endowed Scholarship - Purdue University Fort Wayne
+
+    - year: 2015-2019
+      items:
+        - Chancellor's Merit Scholarship - Purdue University Fort Wayne
+# - title: Teaching Experience
+#   type: nested_list
+#   contents:
+#     - title: Boston University
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
