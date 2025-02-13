@@ -13,6 +13,10 @@ profile:
     <p><b>Office: </b>925C, <a href = "https://maps.app.goo.gl/5mvvJSgsphuR2QjYA">CCDS</a></p>
 
 news: true # includes a list of news items
+annoucements: 
+    enabled: true # includes a list of news items 
+    scrollable: true
+    limit: 5
 latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
