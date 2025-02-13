@@ -26,10 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am a PhD student at Boston University adivsed by [Prof. Manos Athanassoulis](https://cs-people.bu.edu/mathan/).
+Hi! I am a PhD candidate at Boston University adivsed by [Prof. Manos Athanassoulis](https://cs-people.bu.edu/mathan/).
 My research focuses on Database systems, particularly indexing and access methods. Recently, I have been working on instance-optimized indexes that harness inherent data order or sortedness to improve performance.
 
-Before joining Boston University, I attended Purdue University Fort Wayne for my bachelors degree.
+Before joining Boston University, I attended [Purdue University Fort Wayne](https://www.pfw.edu/etcs/computer-science) for my bachelors degree.
 
 **I am currently on the job market, looking for full-time opportunities in the industry.**
 

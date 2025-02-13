@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presenting our [latest work](https://disc.bu.edu/papers/dbtest24-bliss) in DBTest @ SIGMOD 2024 in Santiago, Chile 🇨🇱
+Presenting our [latest work](https://disc.bu.edu/papers/dbtest24-bliss) in [DBTest](https://dbtest-workshop.github.io/) @ SIGMOD 2024 in Santiago, Chile 🇨🇱
