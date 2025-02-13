@@ -92,7 +92,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # permalink: /blog/:year/:title/
 # lsi: false # produce an index for related posts
 
-Pagination
+# Pagination
 pagination:
   enabled: true
 
