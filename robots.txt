@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://ramananeesh.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://aneeshraman.net/sitemap.xml
