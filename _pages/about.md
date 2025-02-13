@@ -12,7 +12,7 @@ profile:
     <p><b>Email: </b><a href = "mailto: aneeshr@bu.edu"> aneeshr@bu.edu </a></p>
     <p><b>Office: </b>925C, <a href = "https://maps.app.goo.gl/5mvvJSgsphuR2QjYA">CCDS</a></p>
 
-news: true # includes a list of news items
+# news: true # includes a list of news items
 annoucements: 
     enabled: true # includes a list of news items 
     scrollable: true
